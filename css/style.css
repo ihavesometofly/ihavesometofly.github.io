@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: url();
+	background-color: ;
+}
+a {
+	text-decoration: none;
+	box-sizing: border-box;
+	color: inherit;
+}
+a:hover {
+	color: red;
+	transition: 0.5s;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	font-size: 24px;
+	padding: 15px;
+	background-color: violet;
+
+}
+.list__wrapper span {
+	margin-left: 20px;
+	color: #fff;
+}
+.list__item {
+	
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.modal__contacts {
+	box-sizing: border-box;
+	line-height: 30px;
+	font-size: 24px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: fit-content;
+	padding: 30px;
+	background-color: #000;
+	color: yellow;
+	display: none;
+	position: absolute;
+	text-align: center;
+
+	
+}
+.info__block {
+	display: flex;
+	align-items: center;
+}
+.txt__money {
+	font-size: 2rem;
+	margin: 30px;
+}
+.money {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 40px;
+	border: 1px solid black;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.close__btn {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	border: 1px solid red;
+	padding: 3px ;
+	line-height: 15px;
+}
+.close__btn:hover {
+	cursor: pointer;
+}
+progress {
+	margin: 30px;
+	width: 300px;
+	height: 40px;
+	border: 1px solid green;
+	border-radius: 10px;
+}
+.progress {
+	display: flex;
+	flex-direction: column;
+}
+.prog {
+	display: flex;
+	align-items: center;
+}
+.plus {
+	font-size: 2rem;
+	font-weight: 900;
+	box-sizing: border-box;
+}
+.plus:hover {
+	cursor: pointer;
+}
+.foto {
+	border: 1px solid black;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin-left: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foto:hover {
+	cursor: pointer;
+}
+.pic_first {
+	background-image: url();
+	background-size: cover;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.pic_second {
+	background-image: url();
+	background-size: cover;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.pic_third {
+	background-image: url();
+	background-size: cover;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.price {
+	font-size: 1.5rem;
+	padding: 30px;
+}
+progress::-webkit-progress-bar {
+ 	background-color: lightgrey;
+	
+}
+progress::-webkit-progress-value {
+	color: green;
+}
+input {
+	width: fit-content;
+	margin: 30px;
+	height: 3vh;
+}
+
+#output{
+	color: red;
+}
